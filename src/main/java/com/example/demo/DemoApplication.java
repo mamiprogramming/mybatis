@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("com.example.demo.dao")  // ← Mapperインターフェースのパッケージを指定 差分
+@MapperScan("com.example.demo.dao")  // ← Mapperインターフェースのパッケージを指定
 public class DemoApplication {
 
 	public static void main(String[] args) {
